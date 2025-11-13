@@ -72,7 +72,8 @@ Consigliato:
 # Configurazione progetto
 I file dove è possibile personalizzare la configurazione della connessione al database e del path globale sono in:
 - `backend/db/dbconfig.php` <i>(sostituire username e password con i valori della connessione al tuo server MySQL)</i>
-- `frontend/src/components/Orders.vue` e modificare il path `baseURL`
+- `frontend/.env.development` <i>(base URL per la comunicazione con il backend in sviluppo locale)</i>
+- `frontend/.env.production` <i>(base URL per la comunicazione con il backend in produzione)</i>
 
 # API test locale
 Copia la **GET request** qui sotto e incollala nel browser per verificare il funzionamento del **backend**:

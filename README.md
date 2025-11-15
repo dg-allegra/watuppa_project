@@ -25,9 +25,7 @@ Essenziali:
 - npm 11.x
 
 Consigliato (per setup backend rapido):
-- MAMP (MacOS)
-- LAMPP (Linux)
-- WAMPP (Windows)
+- XAMPP 8.0.30 <i>(o superiore)</i>
 
 # Installazione database
 - Accedere a MySQL (tramite phpMyAdmin)
@@ -36,19 +34,19 @@ Consigliato (per setup backend rapido):
 
 # Installazione e avvio frontend
 - Scaricare dal repository la cartella `frontend`
-- Collocare la cartella dentro `htdocs` <i>(se possiedi XAMPP/LAMP/MAMP/WAMPP)</i> altrimenti puoi decidere la posizione che preferisci
+- Collocare la cartella dentro `htdocs` <i>(se possiedi XAMPP)</i> altrimenti puoi decidere la posizione che preferisci
 - Aprire il terminale e posizionarsi nella cartella `frontend`<br><br>
+  **Windows**
+    ```bash
+    cd C:\xampp\htdocs\watuppa_project\frontend
+    ```
   **MacOS**
     ```bash
-    cd /Applications/MAMP/htdocs/watuppa_project/frontend
+    cd /Applications/XAMPP/htdocs/watuppa_project/frontend
     ```
   **Linux**
     ```bash
     cd /opt/lampp/htdocs/watuppa_project/frontend
-    ```
-  **Windows**
-    ```bash
-    cd C:\wamp64\www\watuppa_project\frontend
     ```
 
 - Installazione delle dipendenze per il frontend
@@ -66,7 +64,7 @@ Consigliato (per setup backend rapido):
     Il server frontend Vite sarà in ascolto su: `http://localhost:5173`
 
 # Installazione e avvio backend 
-1) Se possiedi XAMPP/LAMP/MAMP/WAMPP
+1) Se possiedi XAMPP
    - Scarica dal repository la cartella `backend`
    - Copia la cartella all'interno della directory `htdocs`
    - Avvia Apache e MySQL dal pannello di controllo
